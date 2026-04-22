@@ -1,314 +1,1472 @@
-
-<!DOCTYPE html>
-<html lang="fi">
-
-<head>
-  <!-- redirect old liiga -->
-  <script defer>
-    if (window.location.origin.includes('devtest')) {
-      window.location.href = 'https://infradev.liiga.fi' + window.location.pathname
-    } else if (window.location.origin.includes('old.liiga')) {
-      window.location.href = 'https://liiga.fi' + window.location.pathname
-    } else if (window.location.origin.includes('admin.liiga')) {
-      window.location.href = 'https://liiga.fi' + window.location.pathname
+[
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3593,
+        "period": 3,
+        "shotX": 134,
+        "shotY": 252,
+        "blockerId": 22558763,
+        "shooterId": 60361530,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 3,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3553,
+        "period": 3,
+        "shotX": 311,
+        "shotY": 286,
+        "blockerId": 22558763,
+        "shooterId": 60861295,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 3,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3518,
+        "period": 3,
+        "shotX": 198,
+        "shotY": 391,
+        "blockerId": 23517198,
+        "shooterId": 60545126,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 3,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3474,
+        "period": 3,
+        "shotX": 189,
+        "shotY": 104,
+        "blockerId": 22558763,
+        "shooterId": 60972169,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3436,
+        "period": 3,
+        "shotX": 293,
+        "shotY": 342,
+        "blockerId": 22558763,
+        "shooterId": 60544772,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3326,
+        "period": 3,
+        "shotX": 885,
+        "shotY": 290,
+        "blockerId": 60862140,
+        "shooterId": 28696292,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3294,
+        "period": 3,
+        "shotX": 674,
+        "shotY": 433,
+        "blockerId": 32780178,
+        "shooterId": 60854853,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3181,
+        "period": 3,
+        "shotX": 892,
+        "shotY": 312,
+        "blockerId": 60862140,
+        "shooterId": 29969041,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3163,
+        "period": 3,
+        "shotX": 182,
+        "shotY": 240,
+        "blockerId": 21589720,
+        "shooterId": 60361530,
+        "eventType": "GOAL",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3141,
+        "period": 3,
+        "shotX": 129,
+        "shotY": 214,
+        "blockerId": 21589720,
+        "shooterId": 32780178,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3125,
+        "period": 3,
+        "shotX": 312,
+        "shotY": 161,
+        "blockerId": 21589720,
+        "shooterId": 60545126,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3105,
+        "period": 3,
+        "shotX": 270,
+        "shotY": 115,
+        "blockerId": 24501132,
+        "shooterId": 60860278,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3090,
+        "period": 3,
+        "shotX": 660,
+        "shotY": 452,
+        "blockerId": 28967947,
+        "shooterId": 23517198,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 3072,
+        "period": 3,
+        "shotX": 891,
+        "shotY": 339,
+        "blockerId": 60862140,
+        "shooterId": 60911968,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 2950,
+        "period": 3,
+        "shotX": 97,
+        "shotY": 200,
+        "blockerId": 21589720,
+        "shooterId": 60545126,
+        "eventType": "GOAL",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 2940,
+        "period": 3,
+        "shotX": 91,
+        "shotY": 237,
+        "blockerId": 21589720,
+        "shooterId": 60361530,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 2938,
+        "period": 3,
+        "shotX": 102,
+        "shotY": 219,
+        "blockerId": 21589720,
+        "shooterId": 60972169,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 2870,
+        "period": 3,
+        "shotX": 900,
+        "shotY": 271,
+        "blockerId": 21589720,
+        "shooterId": 32780178,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 2807,
+        "period": 3,
+        "shotX": 698,
+        "shotY": 72,
+        "blockerId": 60862140,
+        "shooterId": 24479743,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 2756,
+        "period": 3,
+        "shotX": 208,
+        "shotY": 103,
+        "blockerId": 21589720,
+        "shooterId": 60861295,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 2730,
+        "period": 3,
+        "shotX": 154,
+        "shotY": 359,
+        "blockerId": 30984675,
+        "shooterId": 60544772,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 2719,
+        "period": 3,
+        "shotX": 334,
+        "shotY": 315,
+        "blockerId": 30984675,
+        "shooterId": 60545126,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 2639,
+        "period": 3,
+        "shotX": 116,
+        "shotY": 253,
+        "blockerId": 21589720,
+        "shooterId": 29783858,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 2637,
+        "period": 3,
+        "shotX": 171,
+        "shotY": 251,
+        "blockerId": 21589720,
+        "shooterId": 29783858,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 2630,
+        "period": 3,
+        "shotX": 140,
+        "shotY": 288,
+        "blockerId": 21589720,
+        "shooterId": 60661835,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 2511,
+        "period": 3,
+        "shotX": 798,
+        "shotY": 217,
+        "blockerId": 60862140,
+        "shooterId": 60963285,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2396,
+        "period": 2,
+        "shotX": 367,
+        "shotY": 303,
+        "blockerId": 30644067,
+        "shooterId": 29969041,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 362185137,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2312,
+        "period": 2,
+        "shotX": 111,
+        "shotY": 260,
+        "blockerId": 60862140,
+        "shooterId": 31574013,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 362185137,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2294,
+        "period": 2,
+        "shotX": 272,
+        "shotY": 398,
+        "blockerId": 60862140,
+        "shooterId": 31854445,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2234,
+        "period": 2,
+        "shotX": 724,
+        "shotY": 452,
+        "blockerId": 21589720,
+        "shooterId": 30644067,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2230,
+        "period": 2,
+        "shotX": 886,
+        "shotY": 181,
+        "blockerId": 21589720,
+        "shooterId": 60361530,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2215,
+        "period": 2,
+        "shotX": 234,
+        "shotY": 95,
+        "blockerId": 60862140,
+        "shooterId": 31854445,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2177,
+        "period": 2,
+        "shotX": 840,
+        "shotY": 357,
+        "blockerId": 21589720,
+        "shooterId": 28967947,
+        "eventType": "GOAL",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2140,
+        "period": 2,
+        "shotX": 798,
+        "shotY": 356,
+        "blockerId": 24479743,
+        "shooterId": 60544772,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2108,
+        "period": 2,
+        "shotX": 691,
+        "shotY": 244,
+        "blockerId": 21589720,
+        "shooterId": 30738423,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2106,
+        "period": 2,
+        "shotX": 742,
+        "shotY": 483,
+        "blockerId": 25113804,
+        "shooterId": 60902372,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2070,
+        "period": 2,
+        "shotX": 803,
+        "shotY": 221,
+        "blockerId": 21589720,
+        "shooterId": 60902372,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2056,
+        "period": 2,
+        "shotX": 690,
+        "shotY": 295,
+        "blockerId": 21589720,
+        "shooterId": 60902372,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2050,
+        "period": 2,
+        "shotX": 746,
+        "shotY": 292,
+        "blockerId": 29969041,
+        "shooterId": 60855338,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2040,
+        "period": 2,
+        "shotX": 869,
+        "shotY": 345,
+        "blockerId": 21589720,
+        "shooterId": 60972169,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2011,
+        "period": 2,
+        "shotX": 800,
+        "shotY": 146,
+        "blockerId": 21589720,
+        "shooterId": 60860278,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 2002,
+        "period": 2,
+        "shotX": 190,
+        "shotY": 301,
+        "blockerId": 60862140,
+        "shooterId": 33562230,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1993,
+        "period": 2,
+        "shotX": 746,
+        "shotY": 485,
+        "blockerId": 24479743,
+        "shooterId": 60545126,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1989,
+        "period": 2,
+        "shotX": 889,
+        "shotY": 151,
+        "blockerId": 21589720,
+        "shooterId": 60860278,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1971,
+        "period": 2,
+        "shotX": 137,
+        "shotY": 293,
+        "blockerId": 60862140,
+        "shooterId": 60963320,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1955,
+        "period": 2,
+        "shotX": 759,
+        "shotY": 404,
+        "blockerId": 21589720,
+        "shooterId": 60658794,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1882,
+        "period": 2,
+        "shotX": 880,
+        "shotY": 244,
+        "blockerId": 21589720,
+        "shooterId": 60361530,
+        "eventType": "GOAL",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1864,
+        "period": 2,
+        "shotX": 816,
+        "shotY": 353,
+        "blockerId": 31854445,
+        "shooterId": 60972169,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1858,
+        "period": 2,
+        "shotX": 771,
+        "shotY": 337,
+        "blockerId": 31854445,
+        "shooterId": 60545126,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1739,
+        "period": 2,
+        "shotX": 927,
+        "shotY": 272,
+        "blockerId": 21589720,
+        "shooterId": 60905049,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1738,
+        "period": 2,
+        "shotX": 930,
+        "shotY": 277,
+        "blockerId": 21589720,
+        "shooterId": 60905049,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1737,
+        "period": 2,
+        "shotX": 900,
+        "shotY": 215,
+        "blockerId": 21589720,
+        "shooterId": 60658794,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1674,
+        "period": 2,
+        "shotX": 896,
+        "shotY": 225,
+        "blockerId": 21589720,
+        "shooterId": 29695519,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1653,
+        "period": 2,
+        "shotX": 805,
+        "shotY": 168,
+        "blockerId": 21589720,
+        "shooterId": 60860278,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1576,
+        "period": 2,
+        "shotX": 727,
+        "shotY": 424,
+        "blockerId": 21589720,
+        "shooterId": 30644067,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1528,
+        "period": 2,
+        "shotX": 339,
+        "shotY": 254,
+        "blockerId": 30738423,
+        "shooterId": 28696276,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1520,
+        "period": 2,
+        "shotX": 229,
+        "shotY": 163,
+        "blockerId": 60862140,
+        "shooterId": 60963285,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1494,
+        "period": 2,
+        "shotX": 279,
+        "shotY": 113,
+        "blockerId": 60862140,
+        "shooterId": 60963285,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1465,
+        "period": 2,
+        "shotX": 253,
+        "shotY": 342,
+        "blockerId": 25042564,
+        "shooterId": 25113804,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1391,
+        "period": 2,
+        "shotX": 666,
+        "shotY": 53,
+        "blockerId": 24479743,
+        "shooterId": 28905831,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1336,
+        "period": 2,
+        "shotX": 119,
+        "shotY": 225,
+        "blockerId": 60862140,
+        "shooterId": 60963320,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1300,
+        "period": 2,
+        "shotX": 920,
+        "shotY": 217,
+        "blockerId": 21589720,
+        "shooterId": 28967947,
+        "eventType": "GOAL",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1289,
+        "period": 2,
+        "shotX": 703,
+        "shotY": 289,
+        "blockerId": 21589720,
+        "shooterId": 30738423,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1278,
+        "period": 2,
+        "shotX": 866,
+        "shotY": 403,
+        "blockerId": 21589720,
+        "shooterId": 28967947,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 951626834,
+        "rightTeam": 362185137,
+        "gameTime": 1217,
+        "period": 2,
+        "shotX": 271,
+        "shotY": 408,
+        "blockerId": 60862140,
+        "shooterId": 33562230,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 1171,
+        "period": 1,
+        "shotX": 764,
+        "shotY": 110,
+        "blockerId": 60862140,
+        "shooterId": 24501132,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 1144,
+        "period": 1,
+        "shotX": 297,
+        "shotY": 185,
+        "blockerId": 21589720,
+        "shooterId": 25042564,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 1092,
+        "period": 1,
+        "shotX": 794,
+        "shotY": 314,
+        "blockerId": 32780178,
+        "shooterId": 33490124,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 1084,
+        "period": 1,
+        "shotX": 842,
+        "shotY": 347,
+        "blockerId": 60862140,
+        "shooterId": 60963285,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 1019,
+        "period": 1,
+        "shotX": 130,
+        "shotY": 162,
+        "blockerId": 21589720,
+        "shooterId": 60972169,
+        "eventType": "GOAL",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 1017,
+        "period": 1,
+        "shotX": 312,
+        "shotY": 341,
+        "blockerId": 21589720,
+        "shooterId": 60545126,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 1001,
+        "period": 1,
+        "shotX": 334,
+        "shotY": 26,
+        "blockerId": 24501132,
+        "shooterId": 60658794,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 984,
+        "period": 1,
+        "shotX": 182,
+        "shotY": 408,
+        "blockerId": 21589720,
+        "shooterId": 28905831,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 953,
+        "period": 1,
+        "shotX": 900,
+        "shotY": 214,
+        "blockerId": 60862140,
+        "shooterId": 25489224,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 935,
+        "period": 1,
+        "shotX": 363,
+        "shotY": 379,
+        "blockerId": 23517198,
+        "shooterId": 60361530,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 886,
+        "period": 1,
+        "shotX": 161,
+        "shotY": 420,
+        "blockerId": 25489224,
+        "shooterId": 60861295,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 879,
+        "period": 1,
+        "shotX": 222,
+        "shotY": 394,
+        "blockerId": 21589720,
+        "shooterId": 60545126,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 842,
+        "period": 1,
+        "shotX": 334,
+        "shotY": 21,
+        "blockerId": 21589720,
+        "shooterId": 60658794,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 809,
+        "period": 1,
+        "shotX": 185,
+        "shotY": 392,
+        "blockerId": 21589720,
+        "shooterId": 60861295,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 804,
+        "period": 1,
+        "shotX": 92,
+        "shotY": 314,
+        "blockerId": 21589720,
+        "shooterId": 60361530,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 767,
+        "period": 1,
+        "shotX": 640,
+        "shotY": 408,
+        "blockerId": 60862140,
+        "shooterId": 23517198,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 702,
+        "period": 1,
+        "shotX": 678,
+        "shotY": 62,
+        "blockerId": 29783858,
+        "shooterId": 28696276,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 678,
+        "period": 1,
+        "shotX": 312,
+        "shotY": 89,
+        "blockerId": 21589720,
+        "shooterId": 60545126,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 657,
+        "period": 1,
+        "shotX": 143,
+        "shotY": 404,
+        "blockerId": 21589720,
+        "shooterId": 60544772,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 602,
+        "period": 1,
+        "shotX": 718,
+        "shotY": 494,
+        "blockerId": 60862140,
+        "shooterId": 60963285,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 567,
+        "period": 1,
+        "shotX": 706,
+        "shotY": 229,
+        "blockerId": 29783858,
+        "shooterId": 24501132,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 565,
+        "period": 1,
+        "shotX": 749,
+        "shotY": 383,
+        "blockerId": 60862140,
+        "shooterId": 21468906,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 515,
+        "period": 1,
+        "shotX": 662,
+        "shotY": 282,
+        "blockerId": 60862140,
+        "shooterId": 60963285,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 4
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 951626834,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 439,
+        "period": 1,
+        "shotX": 262,
+        "shotY": 407,
+        "blockerId": 21589720,
+        "shooterId": 60972169,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 356,
+        "period": 1,
+        "shotX": 749,
+        "shotY": 142,
+        "blockerId": 60862140,
+        "shooterId": 60963285,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "PowerplayShot",
+        "otherTeamPlayersOnIce": 4,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 264,
+        "period": 1,
+        "shotX": 688,
+        "shotY": 210,
+        "blockerId": 60862140,
+        "shooterId": 24501132,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 61,
+        "period": 1,
+        "shotX": 691,
+        "shotY": 324,
+        "blockerId": 60544772,
+        "shooterId": 33490124,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 193,
+        "period": 1,
+        "shotX": 774,
+        "shotY": 201,
+        "blockerId": 60862140,
+        "shooterId": 30984675,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 188,
+        "period": 1,
+        "shotX": 891,
+        "shotY": 223,
+        "blockerId": 60862140,
+        "shooterId": 33562230,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 186,
+        "period": 1,
+        "shotX": 778,
+        "shotY": 97,
+        "blockerId": 60862140,
+        "shooterId": 31854445,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 144,
+        "period": 1,
+        "shotX": 675,
+        "shotY": 292,
+        "blockerId": 60905049,
+        "shooterId": 24479743,
+        "eventType": "PLAYER_BLOCKED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 101,
+        "period": 1,
+        "shotX": 717,
+        "shotY": 157,
+        "blockerId": 60862140,
+        "shooterId": 23517198,
+        "eventType": "MISSED",
+        "ownTeamPlayersOnIce": 5
+    },
+    {
+        "type": "EvenStrengthShot",
+        "otherTeamPlayersOnIce": 5,
+        "shootingTeamId": 362185137,
+        "leftTeam": 362185137,
+        "rightTeam": 951626834,
+        "gameTime": 74,
+        "period": 1,
+        "shotX": 824,
+        "shotY": 76,
+        "blockerId": 60862140,
+        "shooterId": 33490124,
+        "eventType": "GOALIE_BLOCKED",
+        "ownTeamPlayersOnIce": 5
     }
-  </script>
-  <!-- redirect liiga gaala -->
-  <script defer>
-    if (window.location.pathname === '/gaala2024') {
-      window.location.href = "https://response.questback.com/jkiekonsmliigaoy/uaydnchevr"
-    } else if (window.location.pathname === '/gaala') {
-      window.location.href = "https://response.questback.com/jkiekonsmliigaoy/zwb0hclofe"
-    }
-  </script>
-  <meta charset="utf-8" />
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <link rel="manifest" href="/manifest.json" />
-  <meta name="twitter:site:id" content="62494396">
-  <!-- Preload the external script Nostemedia -->
-  <link rel="preload" href="https://strongbox.nostemedia.fi/p21/s28/liiga.fi.js" as="script">
-  <script async src="https://strongbox.nostemedia.fi/p21/s28/liiga.fi.js" crossorigin="anonymous"></script>
-  <!-- Preload third party script sources -->
-  <link rel="preload" href="https://platform.twitter.com/widgets.js" as="script">
-  <link rel="preload" href="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0" as="script">
-  <!-- Preconnect for faster requests -->
-  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin />
-  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://cdn.builder.io" crossorigin>
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@500;600;700&family=Saira+Semi+Condensed:wght@100;300;500&display=swap&subset=latin-ext"
-    media="print" onload="this.media='all'">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira:400,500,700&display=swap&subset=latin-ext"
-    media="print" onload="this.media='all'">
-  <!-- Builder.io baseline CSS to ensure default .builder-block styles -->
-  <link rel="stylesheet" href="https://cdn.builder.io/css" media="print" onload="this.media='all'">
-  <script type="module" crossorigin src="/assets/index-DqbQPo48.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/axios-BnySf_HC.js">
-  <link rel="modulepreload" crossorigin href="/assets/react-ClES7gZU.js">
-  <link rel="modulepreload" crossorigin href="/assets/vendor-DIZvNGH9.js">
-  <link rel="modulepreload" crossorigin href="/assets/redux-DdFrfM3e.js">
-  <link rel="modulepreload" crossorigin href="/assets/date-fns-D-n92FsK.js">
-  <link rel="modulepreload" crossorigin href="/assets/builder-Bs_Q_wh9.js">
-  <link rel="modulepreload" crossorigin href="/assets/lodash-Eh0RZbCM.js">
-  <link rel="modulepreload" crossorigin href="/assets/i18n-D4610q20.js">
-  <link rel="stylesheet" crossorigin href="/assets/index-6H0npq4m.css">
-  <script type="module">import.meta.url;import("_").catch(()=>1);async function* g(){};if(location.protocol!="file:"){window.__vite_is_modern_browser=true}</script>
-  <script type="module">!function(){if(window.__vite_is_modern_browser)return;console.warn("vite: loading legacy chunks, syntax error above and the same error below should be ignored");var e=document.getElementById("vite-legacy-polyfill"),n=document.createElement("script");n.src=e.src,n.onload=function(){System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))},document.body.appendChild(n)}();</script>
-
-          <meta property="fb:app_id" content="966242223397117">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Liiga.fi | Kausi 2025-26 | Ässät – SaiPa | 31.3.2026 | Kaukalokartat">
-<meta property="og:description" content="Ottelu Ässät – SaiPa 31.3.2026. Kaukalokartat">
-<meta property="og:image" content="https://liiga.fi/logo_liiga_default.png">
-<meta property="og:image:width" content="859">
-<meta property="og:image:height" content="514">
-<meta property="og:url" content="https://liiga.fi/fi/peli/2026/55104/kaukalokartat?koti=assat&vieras=saipa&paiva=31032026">
-<meta name="description" content="Ottelu Ässät – SaiPa 31.3.2026. Kaukalokartat">
-<title>Liiga.fi | Kausi 2025-26 | Ässät – SaiPa | 31.3.2026 | Kaukalokartat</title>
-<link rel="canonical" href="https://liiga.fi/fi/peli/2026/55104/kaukalokartat?koti=assat&vieras=saipa&paiva=31032026">
-          <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@smliiga">
-<meta name="twitter:title" content="Liiga.fi | Kausi 2025-26 | Ässät – SaiPa | 31.3.2026 | Kaukalokartat">
-<meta name="twitter:description" content="Ottelu Ässät – SaiPa 31.3.2026. Kaukalokartat">
-<meta name="twitter:image" content="https://liiga.fi/logo_liiga_default.png">
-          </head>
-        
-
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe loading="lazy" src="https://www.googletagmanager.com/ns.html?id=GTM-N8VL7B5" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-
-  <div id="root"></div>
-  <div id="modal-root"></div>
-  <!-- Google Tag Manager -->
-  <script async>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-N8VL7B5');
-  </script>
-  <!-- End Google Tag Manager -->
-
-  <script async>window.twttr = (function (d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0],
-        t = window.twttr || {};
-      if (d.getElementById(id)) return t;
-      js = d.createElement(s);
-      js.id = id;
-      js.src = "https://platform.twitter.com/widgets.js";
-      fjs.parentNode.insertBefore(js, fjs);
-
-      t._e = [];
-      t.ready = function (f) {
-        t._e.push(f);
-      };
-
-      return t;
-    }(document, "script", "twitter-wjs"));</script>
-  <script async>
-    window.fbAsyncInit = function () {
-      FB.init({
-        appId: '658818681362216',
-        autoLogAppEvents: true,
-        xfbml: true,
-        version: 'v6.0'
-      });
-    };
-  </script>
-  <script async crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
-  <!-- InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
-  <script type="text/javascript" async=true>
-    (function () {
-      var host = 'www.liiga.fi';
-      var element = document.createElement('script');
-      var firstScript = document.getElementsByTagName('script')[0];
-      var url = 'https://cmp.inmobi.com'
-        .concat('/choice/', 'AaWV-tvCeWhR1', '/', host, '/choice.js?tag_version=V3');
-      var uspTries = 0;
-      var uspTriesLimit = 3;
-      element.async = true;
-      element.type = 'text/javascript';
-      element.src = url;
-
-      firstScript.parentNode.insertBefore(element, firstScript);
-
-      function makeStub() {
-        var TCF_LOCATOR_NAME = '__tcfapiLocator';
-        var queue = [];
-        var win = window;
-        var cmpFrame;
-
-        function addFrame() {
-          var doc = win.document;
-          var otherCMP = !!(win.frames[TCF_LOCATOR_NAME]);
-
-          if (!otherCMP) {
-            if (doc.body) {
-              var iframe = doc.createElement('iframe');
-
-              iframe.style.cssText = 'display:none';
-              iframe.name = TCF_LOCATOR_NAME;
-              doc.body.appendChild(iframe);
-            } else {
-              setTimeout(addFrame, 5);
-            }
-          }
-          return !otherCMP;
-        }
-
-        function tcfAPIHandler() {
-          var gdprApplies;
-          var args = arguments;
-
-          if (!args.length) {
-            return queue;
-          } else if (args[0] === 'setGdprApplies') {
-            if (
-              args.length > 3 &&
-              args[2] === 2 &&
-              typeof args[3] === 'boolean'
-            ) {
-              gdprApplies = args[3];
-              if (typeof args[2] === 'function') {
-                args[2]('set', true);
-              }
-            }
-          } else if (args[0] === 'ping') {
-            var retr = {
-              gdprApplies: gdprApplies,
-              cmpLoaded: false,
-              cmpStatus: 'stub'
-            };
-
-            if (typeof args[2] === 'function') {
-              args[2](retr);
-            }
-          } else {
-            if (args[0] === 'init' && typeof args[3] === 'object') {
-              args[3] = Object.assign(args[3], { tag_version: 'V3' });
-            }
-            queue.push(args);
-          }
-        }
-
-        function postMessageEventHandler(event) {
-          var msgIsString = typeof event.data === 'string';
-          var json = {};
-
-          try {
-            if (msgIsString) {
-              json = JSON.parse(event.data);
-            } else {
-              json = event.data;
-            }
-          } catch (ignore) { }
-
-          var payload = json.__tcfapiCall;
-
-          if (payload) {
-            window.__tcfapi(
-              payload.command,
-              payload.version,
-              function (retValue, success) {
-                var returnMsg = {
-                  __tcfapiReturn: {
-                    returnValue: retValue,
-                    success: success,
-                    callId: payload.callId
-                  }
-                };
-                if (msgIsString) {
-                  returnMsg = JSON.stringify(returnMsg);
-                }
-                if (event && event.source && event.source.postMessage) {
-                  event.source.postMessage(returnMsg, '*');
-                }
-              },
-              payload.parameter
-            );
-          }
-        }
-
-        while (win) {
-          try {
-            if (win.frames[TCF_LOCATOR_NAME]) {
-              cmpFrame = win;
-              break;
-            }
-          } catch (ignore) { }
-
-          if (win === window.top) {
-            break;
-          }
-          win = win.parent;
-        }
-        if (!cmpFrame) {
-          addFrame();
-          win.__tcfapi = tcfAPIHandler;
-          win.addEventListener('message', postMessageEventHandler, false);
-        }
-      };
-
-      makeStub();
-
-      var uspStubFunction = function () {
-        var arg = arguments;
-        if (typeof window.__uspapi !== uspStubFunction) {
-          setTimeout(function () {
-            if (typeof window.__uspapi !== 'undefined') {
-              window.__uspapi.apply(window.__uspapi, arg);
-            }
-          }, 500);
-        }
-      };
-
-      var checkIfUspIsReady = function () {
-        uspTries++;
-        if (window.__uspapi === uspStubFunction && uspTries < uspTriesLimit) {
-          console.warn('USP is not accessible');
-        } else {
-          clearInterval(uspInterval);
-        }
-      };
-
-      if (typeof window.__uspapi === 'undefined') {
-        window.__uspapi = uspStubFunction;
-        var uspInterval = setInterval(checkIfUspIsReady, 6000);
-      }
-    })();
-  </script>
-  <!-- End InMobi Choice. Consent Manager Tag v3.0 (for TCF 2.2) -->
-
-  <!-- Ecal button-->
-  <link rel="preconnect" href="//sync.ecal.com">
-  <script>
-    !function (e, t, n, c, i, a, s) { i = i || 'EcalWidget', e.EcalWidgetObject = i, e[i] = e[i] || function () { (e[i].q = e[i].q || []).push(arguments) }, a = t.createElement(n), s = t.getElementsByTagName(n)[0], e[i].u = c, a.async = 1, a.src = c, s.parentNode.insertBefore(a, s) }(window, document, 'script', '//sync.ecal.com/button/v1/main.js' + '?t=' + Date.now());
-    (function () {
-      function l() { var w = window.ECAL_SYNC_WIDGET = EcalWidget.init({ apiKey: 'qjAjJsc8bWwDN9uVuiQt2D5KafXinqiB359KZfsQ0I620d1040' }); }
-      ; (window.attachEvent ? window.attachEvent('onload', l) : window.addEventListener('load', l, false));
-    }());
-  </script>
-
-  <script nomodule>!function(){var e=document,t=e.createElement("script");if(!("noModule"in t)&&"onbeforeload"in t){var n=!1;e.addEventListener("beforeload",(function(e){if(e.target===t)n=!0;else if(!e.target.hasAttribute("nomodule")||!n)return;e.preventDefault()}),!0),t.type="module",t.src=".",e.head.appendChild(t),t.remove()}}();</script>
-  <script nomodule crossorigin id="vite-legacy-polyfill" src="/assets/polyfills-legacy-C7kWqDBg.js"></script>
-  <script nomodule crossorigin id="vite-legacy-entry" data-src="/assets/index-legacy-C8U5gmvg.js">System.import(document.getElementById('vite-legacy-entry').getAttribute('data-src'))</script>
-</body>
-
-</html>
+]
